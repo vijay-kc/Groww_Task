@@ -1,12 +1,17 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Finance Dashboard Builder',
-  description: 'Customizable real-time finance monitoring dashboard',
+  title: "Finance Dashboard Builder",
+  description: "Customizable real-time finance monitoring dashboard",
+  icons: {
+    icon: "/growth.png",        // default favicon
+    shortcut: "/growth.png",    // legacy browser support
+    apple: "/growth.png",       // iOS devices
+  },
 };
 
 export default function RootLayout({
