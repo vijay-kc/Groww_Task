@@ -87,6 +87,23 @@ npm run dev   # or yarn dev
 
 - Vercel
 
+## 🚀 Live Demo
+[Click here to view the app](https://finance-dashboard.vercel.app)
+
+## 📡 API (User Required)
+
+This project is designed to work with the [Alpha Vantage API](https://www.alphavantage.co/).  
+**Important:** the repository does not include any API keys — each user must generate and provide their own Alpha Vantage API key for the app to work.
+
+### Setup Instructions
+1. Sign up and generate a free API key at Alpha Vantage:  
+   https://www.alphavantage.co/support/#api-key
+
+2. Enter API key in input box with your API key<br>
+    EX. https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=APIKEY
+
+
+
 ## 🤝 Contributing
 
 - Contributions, issues, and feature requests are welcome!
